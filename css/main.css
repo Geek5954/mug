@@ -1,0 +1,104 @@
+body{
+background:#f7fcff;
+font-size: 10pt;
+}
+.prof{
+	width:180px;
+	height:42px;
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+}
+.prof img{
+margin: 5px;
+}
+span{
+	color:#7f7f7f;
+}
+.avatar{
+	margin-top: 10px;
+	width:30px;
+}
+.text{
+	margin-left:10px;
+}
+.mail{
+	font-size: 8pt;
+}
+.menu ul{
+padding: 0;
+}
+.menu ul li{
+list-style-type: none;
+display: inline;
+padding: 10px;
+}
+.menu ul li:nth-child(3){
+color:#00b0f0;
+border-bottom: 2px solid #00b0f0;
+}
+.content{
+	background: #fff;
+	height: 560px;
+	border:  1px solid #f2f2f2;
+
+}
+.textcenter{
+margin:10px 5px 0px 5px;
+}
+.textcontent{
+	background: #f7f7f7;
+	font-size: 12pt;
+}
+.texts{
+	display: flex;
+	margin: 10px;
+}
+.righttext{
+text-align: right;
+max-width: 35%;
+}
+.righttext p{
+margin: 0px;
+}
+.centertext{
+margin-left: 10px;
+}
+.centertext p{
+margin: 0px;
+white-space: nowrap;
+}
+.lefttext{
+margin-left: 30px;
+max-width: 100%;
+text-align: justify;
+}
+.lefttext p{
+	text-align: right;
+	margin: 0px;
+}
+.rightcontent{
+	background: #fff;
+	max-width:250px;
+	border:  1px solid #f2f2f2;
+	margin-bottom:6px;
+}
+.rightcontenttext{
+	margin: 5px;
+	font-size: 9pt;
+}
+.rightcontenttext p{
+	margin:0px 0px 0px 10px;
+}
+.rightcontenttext strong{
+	color:#00b0f0 ;
+}
+.rightcontenttext a{
+	color:#00b0f0 ;
+	border-bottom: 1px solid #00b0f0;
+}
+a{
+	color:#00b0f0 ;}
+.active {
+  display:none;
+}
